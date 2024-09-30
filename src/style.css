@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .slides {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    cursor: e-resize;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+   
+    &::-webkit-slider-runnable-track {
+      width: calc(100% + 80px);
+      height: 100%;
+      background: transparent;
+      position: relative;
+      z-index: 1;
+      
+    }
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 4px;
+      height: 100%;
+      background:  #fff;
+      position: relative;
+     
+    }
+  }
+}
