@@ -54,7 +54,7 @@ npm run build
 [Live Demo](https://image-comparision.netlify.app/)
 
 ## Screenshot
-![Image Comparision](image.png)
+![Image Comparision](public/image.png)
 
 ## License
 
