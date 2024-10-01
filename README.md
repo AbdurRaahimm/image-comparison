@@ -48,6 +48,14 @@ npm run build
 -  Vite
 -  Tailwind CSS
 
+
+## Live Demo 
+
+[Live Demo](https://image-comparision.netlify.app/)
+
+## Screenshot
+![Image Comparision](image.png)
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
